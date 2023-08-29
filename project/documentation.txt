@@ -1,0 +1,77 @@
+Help on module new:
+
+NAME
+    new
+
+CLASSES
+    builtins.object
+        Student
+        Test
+    enum.Enum(builtins.object)
+        Actions
+    
+    class Actions(enum.Enum)
+     |  Actions(value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None)
+     |  
+     |  # Enum for different actions in the menu
+     |  
+     |  Method resolution order:
+     |      Actions
+     |      enum.Enum
+     |      builtins.object
+     |  
+     |  Data and other attributes defined here:
+     |  
+     |  ADD_GRADE = <Actions.ADD_GRADE: 3>
+     |  
+     |  ADD_STUDENT = <Actions.ADD_STUDENT: 1>
+     |  
+     |  DELETE_STUDENT = <Actions.DELETE_STUDENT: 6>
+     |  
+     |  EXIT = <Actions.EXIT: 0>
+     |  
+     |  SHOW_AVERAGE = <Actions.SHOW_AVERAGE: 5>
+     |  
+     |  SHOW_GRADES = <Actions.SHOW_GRADES: 4>
+     |  
+     |  SHOW_STUDENTS = <Actions.SHOW_STUDENTS: 2>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from enum.Enum:
+     |  
+     |  name
+     |      The name of the Enum member.
+     |  
+     |  value
+     |      The value of the Enum member.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from enum.EnumType:
+     |  
+     |  __contains__(member) from enum.EnumType
+     |      Return True if member is a member of this enum
+     |      raises TypeError if member is not an enum member
+     |      
+     |      note: in 3.12 TypeError will no longer be raised, and True will also be
+     |      returned if member is the value of a member in this enum
+     |  
+     |  __getitem__(name) from enum.EnumType
+     |      Return the member matching `name`.
+     |  
+     |  __iter__() from enum.EnumType
+     |      Return members in definition order.
+     |  
+     |  __len__() from enum.EnumType
+     |      Return the number of members (no aliases)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from enum.EnumType:
+     |  
+     |  __members__
+     |      Returns a mapping of member name->value.
+     |      
+     |      This mapping lists all enum members, including aliases. Note that this
+     |      is a read-only view of the internal mapping.
+    
+    class Student(builtins.object)
+:
